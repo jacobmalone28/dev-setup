@@ -2,20 +2,6 @@
 
 This document serves as a personal inventory of the developer tools I use regularly.
 
-## Table of Contents
-
-1.  [Operating Systems](#operating-systems)
-2.  [Integrated Development Environments (IDEs) & Code Editors](#integrated-development-environments-ides--code-editors)
-3.  [Terminals & Shells](#terminals--shells)
-4.  [Database Tools](#database-tools)
-5.  [API Development & Testing](#api-development--testing)
-6.  [Containerization & Virtualization](#containerization--virtualization)
-7.  [Productivity & Utilities](#productivity--utilities)
-8.  [Browsers & Developer Tools](#browsers--developer-tools)
-9.  [Other Specific Tools](#other-specific-tools)
-
----
-
 ## 1. Systems
 
 - 💻 **Main:** Macbook Pro M1 Pro 16GB/512GB
