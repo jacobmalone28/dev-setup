@@ -6,171 +6,89 @@ This document serves as a personal inventory of the developer tools I use regula
 
 1.  [Operating Systems](#operating-systems)
 2.  [Integrated Development Environments (IDEs) & Code Editors](#integrated-development-environments-ides--code-editors)
-3.  [Version Control](#version-control)
-4.  [Terminals & Shells](#terminals--shells)
-5.  [Database Tools](#database-tools)
-6.  [API Development & Testing](#api-development--testing)
-7.  [Containerization & Virtualization](#containerization--virtualization)
-8.  [Build Tools & Package Managers](#build-tools--package-managers)
-9.  [Cloud Platforms](#cloud-platforms)
-10. [Monitoring & Logging](#monitoring--logging)
-11. [Collaboration & Communication](#collaboration--communication)
-12. [Productivity & Utilities](#productivity--utilities)
-13. [Browsers & Developer Tools](#browsers--developer-tools)
-14. [Other Specific Tools](#other-specific-tools)
+3.  [Terminals & Shells](#terminals--shells)
+4.  [Database Tools](#database-tools)
+5.  [API Development & Testing](#api-development--testing)
+6.  [Containerization & Virtualization](#containerization--virtualization)
+7.  [Productivity & Utilities](#productivity--utilities)
+8.  [Browsers & Developer Tools](#browsers--developer-tools)
+9.  [Other Specific Tools](#other-specific-tools)
 
 ---
 
-## 1. Operating Systems
+## 1. Systems
 
-*   **Main:** [Your Main OS, e.g., macOS Sonoma, Windows 11 Pro, Ubuntu 24.04 LTS]
-    *   *Notes:* [Any specific configurations or reasons for using it]
-*   **Secondary:** [Any other OS you use, e.g., for VMs, testing]
-    *   *Notes:* [Purpose of use]
+- 💻 **Main:** Macbook Pro M1 Pro 16GB/512GB
+  - _Notes:_ First Mac machine, very pleasantly surprised. Developer experience is top notch.
+- 🖥️ **Secondary:** Windows (Intel i5 9600K, RTX 2060 Super, 16GB/1.5TB)
+  - _Notes:_ Mainly for gaming/game development. Used to like. Not so much anymore.
 
 ---
 
 ## 2. Integrated Development Environments (IDEs) & Code Editors
 
-*   **[IDE/Editor Name, e.g., VS Code]**
-    *   *Purpose:* [Main use cases, e.g., Web Development, Python, Java]
-    *   *Key Extensions/Plugins:*
-        *   [Extension Name 1]
-        *   [Extension Name 2]
-        *   [Extension Name 3]
-    *   *Notes:* [Customizations, themes, specific settings]
-*   **[Another IDE/Editor Name, e.g., IntelliJ IDEA]**
-    *   *Purpose:* [Specific language or project type]
-    *   *Key Extensions/Plugins:*
-        *   [Extension Name 1]
-    *   *Notes:* [License type, specific features used]
+- **VS Code**
+  - _Theme:_ [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+  - _Key Extensions/Plugins:_
+    - [RainbowCSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- **Godot**
 
 ---
 
-## 3. Version Control
+## 3. Terminals & Shells
 
-*   **Main:** [e.g., Git]
-    *   *Platform/Service:* [e.g., GitHub, GitLab, Bitbucket]
-    *   *GUI Client (if used):* [e.g., SourceTree, GitHub Desktop]
-    *   *Notes:* [Configuration, common commands, preferred workflows]
-
----
-
-## 4. Terminals & Shells
-
-*   **Main:** [e.g., iTerm2 (macOS), Windows Terminal, GNOME Terminal (Linux)]
-    *   *Shell:* [e.g., Zsh, Bash, PowerShell]
-    *   *Key Configuration/Themes:* [e.g., Oh My Zsh, custom prompts]
-    *   *Notes:* [Specific plugins or aliases]
+- 👻 **Ghostty**
+  - _Shell:_ fish
+  - _Key Configuration/Themes:_ ohmyfish
+  - _Notes:_ very nice autocomplete and history
 
 ---
 
-## 5. Database Tools
+## 4. Database Tools
 
-*   **Type:** [e.g., Relational Databases]
-    *   **Tool Name:** [e.g., DBeaver, TablePlus, pgAdmin, MySQL Workbench]
-    *   *Supported Databases:* [e.g., PostgreSQL, MySQL, SQL Server]
-    *   *Notes:* [Specific features used, connections]
-*   **Type:** [e.g., NoSQL Databases]
-    *   **Tool Name:** [e.g., MongoDB Compass, Robo 3T]
-    *   *Supported Databases:* [e.g., MongoDB, Redis]
-    *   *Notes:* [Specific features used, connections]
+- 🐝 **Beekeeper Studio**
+  - _Notes:_ super nice gui, easy to use
 
 ---
 
-## 6. API Development & Testing
+## 5. API Development & Testing
 
-*   **Tool Name:** [e.g., Postman, Insomnia, cURL]
-    *   *Purpose:* [e.g., REST API testing, gRPC testing]
-    *   *Notes:* [Collections, environments, features used]
-
----
-
-## 7. Containerization & Virtualization
-
-*   **Tool Name:** [e.g., Docker Desktop, Podman, VirtualBox, VMware]
-    *   *Purpose:* [e.g., Local development environments, testing]
-    *   *Notes:* [Common commands, configurations]
+- 🐶 **Bruno:**
+  - _Notes:_ Kinda just open source Postman, websocket support coming soon 🤞
 
 ---
 
-## 8. Build Tools & Package Managers
+## 6. Containerization & Virtualization
 
-*   **Language/Ecosystem:** [e.g., Node.js]
-    *   **Tool Name:** [e.g., npm, yarn, pnpm]
-    *   *Notes:* [Preferred manager, common scripts]
-*   **Language/Ecosystem:** [e.g., Java]
-    *   **Tool Name:** [e.g., Maven, Gradle]
-    *   *Notes:* [Common tasks, configurations]
-*   **General:** [e.g., Make, Bazel]
-    *   *Purpose:* [e.g., General build automation]
-    *   *Notes:* [Common recipes]
+- 🐳 **Docker + Colima**
+  - _Purpose:_ containerization, consistency, testing
 
 ---
 
-## 9. Cloud Platforms
+## 7. Productivity & Utilities
 
-*   **Platform:** [e.g., AWS, Google Cloud Platform (GCP), Microsoft Azure]
-    *   *Key Services Used:* [e.g., EC2, S3, Lambda, Compute Engine, App Engine, Azure VMs, Azure Functions]
-    *   *Management Tools:* [e.g., AWS CLI, gcloud CLI, Azure CLI, web console]
-    *   *Notes:* [Certifications, specific projects hosted]
-
----
-
-## 10. Monitoring & Logging
-
-*   **Tool Name:** [e.g., Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Datadog]
-    *   *Purpose:* [e.g., Application monitoring, system logging]
-    *   *Notes:* [Key dashboards, configurations]
-
----
-
-## 11. Collaboration & Communication
-
-*   **Tool Name:** [e.g., Slack, Microsoft Teams, Discord]
-    *   *Purpose:* [e.g., Team communication, project discussions]
-    *   *Notes:* [Key channels, integrations]
-*   **Project Management:** [e.g., Jira, Trello, Asana]
-    *   *Purpose:* [e.g., Task tracking, sprint planning]
-    *   *Notes:* [Boards, workflows]
-
----
-
-## 12. Productivity & Utilities
-
-*   **Tool Name:** [e.g., f.lux, Rectangle (macOS), AutoHotkey (Windows)]
-    *   *Purpose:* [e.g., Eye strain reduction, window management, custom shortcuts]
-    *   *Notes:* [Specific configurations]
-*   **Documentation:** [e.g., Obsidian, Notion, Evernotes]
-    *   *Purpose:* [e.g., Note-taking, knowledge base]
-    *   *Notes:* [Organization methods, plugins]
+- 🗯️ **Raycast**
+  - _Purpose:_ Swiss army knife, replaces default spotlight search, window management
+- ✏️ **Notion**
+  - _Purpose:_ note taking (duh)
 
 ---
 
 ## 13. Browsers & Developer Tools
 
-*   **Main Browser:** [e.g., Chrome, Firefox, Brave]
-    *   *Key Extensions:* [e.g., React Developer Tools, Vue.js devtools]
-    *   *Notes:* [Specific settings, profiles]
-*   **Secondary Browsers:** [e.g., for cross-browser testing]
-    *   *Notes:* [Purpose of use]
+- 🏮 **Zen**
+  - _Key Extensions:_
+    - UBlock Origin
+  - _Notes:_ Firefox but better
 
 ---
 
 ## 14. Other Specific Tools
 
-*   **Tool Name:** [e.g., ffmpeg, GIMP, Inkscape]
-    *   *Purpose:* [e.g., Video processing, image editing, vector graphics]
-    *   *Notes:* [Common workflows, useful commands]
-
----
-
-## Notes & Customizations
-
-*   [Add any general notes, preferred workflows, or overall setup philosophy here.]
-*   [Mention any upcoming tools you plan to learn or integrate.]
-*   [Include information about your hardware setup if relevant.]
-
----
-
-*Last Updated: [Date of last update]*
+- **GIMP** for image editing
+- **Inkscape** for vector graphics / svgs
+- **Blender** for 3d modeling
+- **Audacity** for anything audio related
+- **Spotify** for music
